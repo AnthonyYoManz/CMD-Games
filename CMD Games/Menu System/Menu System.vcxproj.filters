@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AntSpace">
+      <UniqueIdentifier>{d27c1591-6b83-4b56-b14c-c97b7cd9804e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AntSpace">
+      <UniqueIdentifier>{d64e3e63-0c54-4aa8-a407-ae04843dd2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menus">
+      <UniqueIdentifier>{48152aef-db8c-4648-bf5b-54d324a438bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus">
+      <UniqueIdentifier>{2b4c09ad-760f-4fa8-b3e6-186153aff85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu System">
+      <UniqueIdentifier>{dcc39774-146a-4f35-a2e4-ee9c6fe2023b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu System">
+      <UniqueIdentifier>{f13adad9-4b63-4031-98be-a59fec16cc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games">
+      <UniqueIdentifier>{0d70caef-0908-445c-90db-3a04d06ba445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Hangman">
+      <UniqueIdentifier>{09235c3e-76b3-424d-ab7e-e7f96486427b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games">
+      <UniqueIdentifier>{5d2a4c94-2854-4bc7-8407-53c39f980703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Hangman">
+      <UniqueIdentifier>{dd6b35d6-1ff8-4669-9233-4064eef13c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Snake">
+      <UniqueIdentifier>{0732889f-a64e-42e5-8a0d-02aa0b8a194a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Snake">
+      <UniqueIdentifier>{c41f139a-a65b-4042-ac26-7a3678309130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Blackjack">
+      <UniqueIdentifier>{15a2142e-80f4-49ad-9534-1e982a1edbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Blackjack">
+      <UniqueIdentifier>{0d14ae6e-d2c0-4692-be0f-57d8de8701b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Messenger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntClock.cpp">
+      <Filter>Source Files\AntSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="DifficultyMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuEntry.cpp">
+      <Filter>Source Files\Menu System</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menu System</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuFactory.cpp">
+      <Filter>Source Files\Menu System</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSystem.cpp">
+      <Filter>Source Files\Menu System</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hangman.cpp">
+      <Filter>Source Files\Games\Hangman</Filter>
+    </ClCompile>
+    <ClCompile Include="HangingMan.cpp">
+      <Filter>Source Files\Games\Hangman</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source Files\Games\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeGrid.cpp">
+      <Filter>Source Files\Games\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Snaaake.cpp">
+      <Filter>Source Files\Games\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackjackDeck.cpp">
+      <Filter>Source Files\Games\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="Blackjack.cpp">
+      <Filter>Source Files\Games\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackjackHand.cpp">
+      <Filter>Source Files\Games\Blackjack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Messenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntClock.h">
+      <Filter>Header Files\AntSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="AntVector2.h">
+      <Filter>Header Files\AntSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="DifficultyMenu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuEntry.h">
+      <Filter>Header Files\Menu System</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuFactory.h">
+      <Filter>Header Files\Menu System</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSystem.h">
+      <Filter>Header Files\Menu System</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Menu System</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hangman.h">
+      <Filter>Header Files\Games\Hangman</Filter>
+    </ClInclude>
+    <ClInclude Include="HangingMan.h">
+      <Filter>Header Files\Games\Hangman</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficulties.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Header Files\Games\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGrid.h">
+      <Filter>Header Files\Games\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Snaaake.h">
+      <Filter>Header Files\Games\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackjack.h">
+      <Filter>Header Files\Games\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackjackDeck.h">
+      <Filter>Header Files\Games\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackjackCards.h">
+      <Filter>Header Files\Games\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackjackHand.h">
+      <Filter>Header Files\Games\Blackjack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

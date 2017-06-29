@@ -1,0 +1,64 @@
+﻿Build started 10/12/2015 12:54:25.
+     1>Project "F:\work\james\Assignment 1\Menu System\Menu System.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Menu System.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\Curses /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AntClock.cpp Blackjack.cpp BlackjackDeck.cpp BlackjackHand.cpp ConsoleApp.cpp DifficultyMenu.cpp Game.cpp HangingMan.cpp Hangman.cpp Input.cpp MainMenu.cpp Menu.cpp MenuEntry.cpp MenuFactory.cpp MenuSystem.cpp Messenger.cpp Printer.cpp Snaaake.cpp Snake.cpp SnakeGrid.cpp main.cpp
+         SnakeGrid.cpp
+         Snake.cpp
+     1>f:\work\james\assignment 1\menu system\snake.cpp(15): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>f:\work\james\assignment 1\menu system\snake.cpp(105): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\work\james\assignment 1\menu system\snake.cpp(108): warning C4305: '=' : truncation from 'double' to 'float'
+         Snaaake.cpp
+         Printer.cpp
+         MenuSystem.cpp
+         MainMenu.cpp
+         Input.cpp
+         Hangman.cpp
+     1>f:\work\james\assignment 1\menu system\hangman.cpp(13): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         HangingMan.cpp
+         DifficultyMenu.cpp
+         BlackjackHand.cpp
+         BlackjackDeck.cpp
+     1>f:\work\james\assignment 1\menu system\blackjackdeck.cpp(20): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Blackjack.cpp
+         AntClock.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+         MenuFactory.cpp
+         Menu.cpp
+     1>f:\work\james\assignment 1\menu system\menu.cpp(35): warning C4018: '>=' : signed/unsigned mismatch
+         Game.cpp
+         ConsoleApp.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Messenger.cpp
+         MenuEntry.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work\james\Assignment 1\Debug\Video Games.exe" /INCREMENTAL /NOLOGO pdcurses.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\work\james\Assignment 1\Debug\Video Games.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\work\james\Assignment 1\Debug\Video Games.lib" /MACHINE:X86 Debug\AntClock.obj
+         Debug\Blackjack.obj
+         Debug\BlackjackDeck.obj
+         Debug\BlackjackHand.obj
+         Debug\ConsoleApp.obj
+         Debug\DifficultyMenu.obj
+         Debug\Game.obj
+         Debug\HangingMan.obj
+         Debug\Hangman.obj
+         Debug\Menu.obj
+         Debug\MenuSystem.obj
+         Debug\Input.obj
+         Debug\main.obj
+         Debug\MainMenu.obj
+         Debug\MenuFactory.obj
+         Debug\MenuEntry.obj
+         Debug\Printer.obj
+         Debug\Messenger.obj
+         Debug\Snaaake.obj
+         Debug\Snake.obj
+         Debug\SnakeGrid.obj
+         Menu System.vcxproj -> F:\work\james\Assignment 1\Debug\Video Games.exe
+     1>Done Building Project "F:\work\james\Assignment 1\Menu System\Menu System.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.82
